@@ -71,7 +71,7 @@ public class ResultServlet extends HttpServlet {
 	      }
 	  }
 	  // 商品結果画面に移動
-	  RequestDispatcher rd = request.getRequestDispatcher("./jsp/result.jsp");
+	  RequestDispatcher rd = request.getRequestDispatcher("./result.jsp");
 	  rd.forward(request, response);
 
 	  }
